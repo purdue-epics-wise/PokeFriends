@@ -100,6 +100,10 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                             .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_CYAN)).title("Hey you moved the x-axis" + currentDateTime));
 
                 }
+
+                last_x = x;
+                last_y = y;
+                last_z = z;
             }
         }
 
