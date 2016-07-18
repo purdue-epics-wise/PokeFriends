@@ -17,7 +17,7 @@ public class MapsActivity extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_maps);
+        setContentView(R.layout.activity_main);
         btnShowLocation = (Button) findViewById(R.id.Button);
         // show location button click event
         btnShowLocation.setOnClickListener(new View.OnClickListener() {
